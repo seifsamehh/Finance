@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <!-- logo -->
+    <link rel="icon" href="/images/logo.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;900&display=swap" rel="stylesheet"
+    <!-- main css file -->
+    <link rel="stylesheet" href="/style/Faq.css">
+</head>
+<body>
+    <!-- start faq -->
+    <section class="faq">
+        <div class="container">
+            <h1>FAQ</h1>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <input type="radio" name="radio-a" id="check1" checked>
+                    <label class="accordion-label" for="check1">Chart one</label>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fuga quia, doloribus odio nulla debitis iure qui, quam officia sed aliquam voluptate quasi praesentium magnam, doloremque natus necessitatibus minima odit?</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <input type="radio" name="radio-a" id="check2">
+                    <label class="accordion-label" for="check2">Chart two</label>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quasi beatae blanditiis exercitationem reprehenderit incidunt alias aliquid dolor soluta tenetur nulla quo laborum adipisci, explicabo nostrum neque vitae facere.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <input type="radio" name="radio-a" id="check3">
+                    <label class="accordion-label" for="check3">Chart three</label>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel debitis facere et cumque consequuntur repudiandae facilis commodi velit porro! Magnam explicabo adipisci exercitationem quos nobis reprehenderit nesciunt, tempora ducimus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end faq -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+    <!-- logo -->
+    <link rel="icon" href="/images/logo.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- charts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+    <!-- start main -->
+    <main>
+        <!-- start aside for left part -->
+        <aside class="left-part">
+            <img src="/images/logo.png" alt="logo">
+            <nav>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="/chat.html">
+                    <i class="fa-solid fa-message"></i>
+                    <span>Chat</span>
+                </a>
+                <a href="/login.html">
+                    <i class="fa-sharp fa-solid fa-right-to-bracket"></i>
+                    <span>Login</span>
+                </a>
+                <a href="/Faq.html">
+                    <i class="fa-solid fa-question"></i>
+                    <span>FAQ</span>
+                </a>
+                <a href="/dark.html">
+                    <i class="fa-solid fa-moon"></i>
+                    <span>Dark</span>
+                </a>
+            </nav>
+        </aside>
+        <!-- end aside for left part -->
+        <!-- start section for right part -->
+        <article class="right-part">
+            <!-- start header -->
+            <header>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                </div>
+                <div class="person-data">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <img src="/images/client.png" alt="client">
+                </div>
+            </header>
+            <!-- end header -->
+            <!-- start section -->
+            <section class="charts">
+                <!-- start money -->
+                <div class="money">
+                    <div class="box-1">
+                        <h4>Total income</h4>
+                        <h1>$ 579,000</h1>
+                        <h5>Saved 25%</h5>
+                    </div>
+                    <div class="box-2">
+                        <h4>Total Expences</h4>
+                        <h1>$ 79,000</h1>
+                        <h5>Saved 25%</h5>
+                    </div>
+                    <div class="box-3">
+                        <h4>Cash on Hand</h4>
+                        <h1>$ 92,000</h1>
+                        <h5>Saved 25%</h5>
+                    </div>
+                    <div class="box-4">
+                        <h4>Net Profit Margin</h4>
+                        <h1>$ 179,000</h1>
+                        <h5>Saved 65%</h5>
+                    </div>
+                </div>
+                <!-- end money -->
+                <!-- start part one -->
+                <div class="part-1">
+                    <div class="chart-1">
+                        <div id="stock-chart-example-2"><table class="charts-css area"><caption> Stock Price </caption> <tbody><tr><td style="--start:0.3; --size:0.4;"></td></tr> <tr><td style="--start:0.4; --size:0.8;"></td></tr> <tr><td style="--start:0.8; --size:0.6;"></td></tr> <tr><td style="--start:0.6; --size:1;"></td></tr> <tr><td style="--start:1; --size:0.3;"></td></tr> <tr><td style="--start:0.3; --size:0.8;"></td></tr> <tr><td style="--start:0.8; --size:0.6;"></td></tr> <tr><td style="--start:0.6; --size:1;"></td></tr> <tr><td style="--start:1; --size:0.3;"></td></tr> <tr><td style="--start:0.3; --size:0.8;"></td></tr> <tr><td style="--start:0.8; --size:0.6;"></td></tr> <tr><td style="--start:0.6; --size:1;"></td></tr> <tr><td style="--start:1; --size:0.3;"></td></tr></tbody></table> <table class="charts-css line"><caption> Trend Line </caption> <tbody><tr><td style="--start:0.4; --size:0.5;"></td></tr> <tr><td style="--start:0.5; --size:0.3;"></td></tr> <tr><td style="--start:0.3; --size:0.4;"></td></tr> <tr><td style="--start:0.4; --size:0.7;"></td></tr></tbody></table> <table class="charts-css column data-spacing-2"><caption> Stock trade volume </caption> <tbody><tr><td style="--size:0.6;"></td></tr> <tr><td style="--size:0.9;"></td></tr> <tr><td style="--size:1;"></td></tr> <tr><td style="--size:0.4;"></td></tr> <tr><td style="--size:0.3;"></td></tr> <tr><td style="--size:0.6;"></td></tr> <tr><td style="--size:0.9;"></td></tr> <tr><td style="--size:1;"></td></tr> <tr><td style="--size:0.4;"></td></tr> <tr><td style="--size:0.3;"></td></tr> <tr><td style="--size:0.6;"></td></tr> <tr><td style="--size:0.9;"></td></tr> <tr><td style="--size:1;"></td></tr> <tr><td style="--size:0.4;"></td></tr> <tr><td style="--size:0.3;"></td></tr> <tr><td style="--size:0.6;"></td></tr> <tr><td style="--size:0.9;"></td></tr> <tr><td style="--size:1;"></td></tr> <tr><td style="--size:0.4;"></td></tr> <tr><td style="--size:0.3;"></td></tr> <tr><td style="--size:0.6;"></td></tr> <tr><td style="--size:0.9;"></td></tr> <tr><td style="--size:1;"></td></tr> <tr><td style="--size:0.4;"></td></tr> <tr><td style="--size:0.3;"></td></tr></tbody></table> <div class="primary-axis"> Primary Axis Title </div> <div class="data-1-axis"> Stock Price </div> <div class="data-2-axis"> Moving Average </div></div>
+                    </div>
+                    <div class="chart-2">
+                        <table id="effect-example-4" class="charts-css column"><caption> 3D Effect Example #4 </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Progress </th></tr></thead> <tbody><tr><th scope="row"> 2016 </th> <td style="--size:0.2;"><span class="data"> 20 </span></td></tr> <tr><th scope="row"> 2017 </th> <td style="--size:0.4;"><span class="data"> 40 </span></td></tr> <tr><th scope="row"> 2018 </th> <td style="--size:0.6;"><span class="data"> 60 </span></td></tr> <tr><th scope="row"> 2019 </th> <td style="--size:0.8;"><span class="data"> 80 </span></td></tr> <tr><th scope="row"> 2020 </th> <td style="--size:1;"><span class="data"> 100 </span></td></tr></tbody></table>
+                    </div>
+                </div>
+                <!-- end part one -->
+                <!-- start part two -->
+                <div class="part-2">
+                    <div class="chart-1">
+                        <table id="animations-example-4" class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis"><caption> Animation Example #4 </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Progress </th></tr></thead> <tbody><tr><th scope="row"> 2016 </th> <td style="--size:0.2;"><span class="data"> 20 </span></td></tr> <tr><th scope="row"> 2017 </th> <td style="--size:0.4;"><span class="data"> 40 </span></td></tr> <tr><th scope="row"> 2018 </th> <td style="--size:0.6;"><span class="data"> 60 </span></td></tr> <tr><th scope="row"> 2019 </th> <td style="--size:0.8;"><span class="data"> 80 </span></td></tr> <tr><th scope="row"> 2020 </th> <td style="--size:1;"><span class="data"> 100 </span></td></tr></tbody></table>
+                    </div>
+                    <div class="chart-2">
+                        <table id="line-example-15" class="charts-css line multiple hide-data show-labels show-primary-axis show-4-secondary-axes show-data-axes"><caption> Line Example #15 </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Progress 1 </th> <th scope="col"> Progress 2 </th> <th scope="col"> Progress 3 </th></tr></thead> <tbody><tr><th scope="row"> 2000 </th> <td style="--start:0.1; --size:0.5;"><span class="data"> 50 </span></td> <td style="--start:0; --size:0.2;"><span class="data"> 20 </span></td> <td style="--start:0.2; --size:0.4;"><span class="data"> 40 </span></td></tr> <tr><th scope="row"> 2010 </th> <td style="--start:0.5; --size:0.8;"><span class="data"> 80 </span></td> <td style="--start:0.2; --size:0.5;"><span class="data"> 50 </span></td> <td style="--start:0.4; --size:0.1;"><span class="data"> 10 </span></td></tr> <tr><th scope="row"> 2020 </th> <td style="--start:0.8; --size:0.4;"><span class="data"> 40 </span></td> <td style="--start:0.5; --size:0.3;"><span class="data"> 30 </span></td> <td style="--start:0.1; --size:0.2;"><span class="data"> 20 </span></td></tr></tbody></table>
+                    </div>
+                </div>
+                <!-- end part two -->
+            </section>
+            <!-- end section -->
+        </article>
+        <!-- end section for right part -->
+    </main>
+    <!-- end main -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+        }
+    </script>
+</body>
+</html>

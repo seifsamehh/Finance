@@ -1,0 +1,142 @@
+/* start global variables */
+:root {
+    --light: rgb(39, 39, 39);
+    --main-color: #000;
+}
+/* end global variables */
+/* start global components */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: var(--main-color);
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+a,
+img,
+button {
+    user-select: none;
+}
+/* end global components */
+/* start chat */
+.chat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.chat .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--light);
+    margin: 2rem;
+}
+.chat .container .left,
+.chat .container .right {
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.chat .container .left h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+.chat .container .left .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+}
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #fff;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+.input::placeholder {
+    color: #000;
+}
+.input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #000;
+    width: 1rem;
+    height: 1rem;
+}
+.chat .container .left .chat-1,
+.chat .container .left .chat-2,
+.chat .container .left .chat-3,
+.chat .container .left .chat-4,
+.chat .container .left .chat-5 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .chat .container .left .chat-1,
+    .chat .container .left .chat-2,
+    .chat .container .left .chat-3,
+    .chat .container .left .chat-4,
+    .chat .container .left .chat-5 {
+        flex-direction: column;
+}
+}
+@media screen and (max-width: 768px) {
+    .chat .container .left .chat-1 .content,
+    .chat .container .left .chat-2 .content,
+    .chat .container .left .chat-3 .content,
+    .chat .container .left .chat-4 .content,
+    .chat .container .left .chat-5 .content {
+        text-align: center;
+}
+}
+.chat .container .right .upper-part .person,
+.chat .container .right .bottom-part .person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.chat .container .right .upper-part .special,
+.chat .container .right .bottom-part .special {
+    background-color: #fff7f8;
+    color: var(--main-color);
+    padding: 1rem;
+}
+.chat .container .right .bottom-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* end chat */

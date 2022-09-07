@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <!-- logo -->
+    <link rel="icon" href="/images/logo.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- refresh -->
+    <meta http-equiv="refresh" content="5">
+    <!-- main css file -->
+    <link rel="stylesheet" href="/style/chat.css">
+</head>
+<body>
+    <!-- start chat -->
+    <section class="chat">
+        <div class="container">
+            <!-- start left part -->
+            <div class="left">
+                <h1>Chat List</h1>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                </div>
+                <div class="chat-1">
+                    <img src="/images/client.png" alt="client">
+                    <div class="content">
+                        <h4>Travor James</h4>
+                        <p>i know you are doing great in the course.</p>
+                    </div>
+                    <p>28<sup>th</sup>Nov</p>
+                </div>
+                <div class="chat-2">
+                    <img src="/images/client.png" alt="client">
+                    <div class="content">
+                        <h4>Travor James</h4>
+                        <p>i know you are doing great in the course.</p>
+                    </div>
+                    <p>28<sup>th</sup>Nov</p>
+                </div>
+                <div class="chat-3">
+                    <img src="/images/client.png" alt="client">
+                    <div class="content">
+                        <h4>Travor James</h4>
+                        <p>i know you are doing great in the course.</p>
+                    </div>
+                    <p>28<sup>th</sup>Nov</p>
+                </div>
+                <div class="chat-4">
+                    <img src="/images/client.png" alt="client">
+                    <div class="content">
+                        <h4>Travor James</h4>
+                        <p>i know you are doing great in the course.</p>
+                    </div>
+                    <p>28<sup>th</sup>Nov</p>
+                </div>
+                <div class="chat-5">
+                    <img src="/images/client.png" alt="client">
+                    <div class="content">
+                        <h4>Travor James</h4>
+                        <p>i know you are doing great in the course.</p>
+                    </div>
+                    <p>28<sup>th</sup>Nov</p>
+                </div>
+            </div>
+            <!-- end left part -->
+            <!-- start right part -->
+            <div class="right">
+                <div class="upper-part">
+                    <div class="person">
+                        <img src="/images/client.png" alt="client">
+                        <div class="details">
+                            <h4>Travor James</h4>
+                            <p>Yesterday at 6.33 pm</p>
+                        </div>
+                    </div>
+                    <p contenteditable="" class="special">Dear KK,<br>
+                        Thank you for your update.<br>
+                        We do not sell or share your details without your permission. Find out<br> more in our Privacy Policy. Your username, email, and password can<br> be updated via your Codepixar Account settings.<br>
+                        Regards,</p>
+                </div>
+                <div class="bottom-part">
+                    <div class="person">
+                        <div class="details">
+                            <h4>Travor James</h4>
+                            <p>Yesterday at 6.33 pm</p>
+                        </div>
+                        <img src="/images/client.png" alt="client">
+                    </div>
+                    <p contenteditable="" class="special">Dear KK,<br>
+                        Thank you for your update.<br>
+                        We do not sell or share your details without your permission. Find out<br> more in our Privacy Policy. Your username, email, and password can<br> be updated via your Codepixar Account settings.<br>
+                        Regards,</p>
+                </div>
+            </div>
+            <!-- end right part -->
+        </div>
+    </section>
+    <!-- end chat -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+        }
+    </script>
+</body>
+</html>
